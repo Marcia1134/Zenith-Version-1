@@ -162,6 +162,7 @@
   },
   "active": "d83ee77adebabbad",
   "lastOpenFiles": [
+    "keys.env",
     "advertising.db-journal",
     "cogs/advertising/shop.py",
     "cogs/shop",
@@ -172,7 +173,6 @@
     "cogs/Moderation/__pycache__/announcements.cpython-311.pyc.140300951455040",
     "cogs/Moderation/__pycache__/announcements.cpython-311.pyc.140300953366240",
     "cogs/Moderation/__pycache__/announcements.cpython-311.pyc",
-    "cogs/Moderation/__pycache__",
     "readme.md",
     "Flow Plan.md",
     "comment_guide.md"
