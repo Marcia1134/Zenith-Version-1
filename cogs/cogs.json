@@ -1,0 +1,21 @@
+{
+    "cogs" : [
+        "cogs.events.on_ready",
+        "cogs.config_manager",
+        "cogs.events.on_member_join",
+        "cogs.events.on_message",
+        "cogs.tickets.create_ticket",
+        "cogs.tickets.close_ticket",
+        "cogs.tickets.add_member",
+        "cogs.tickets.del_member",
+        "cogs.advertising.ad_edit",
+        "cogs.advertising.ad_profile_delete",
+        "cogs.advertising.ad_profile",
+        "cogs.advertising.adhelp",
+        "cogs.advertising.get_code",
+        "cogs.advertising.get_level",
+        "cogs.advertising.guide",
+        "cogs.advertising.help",
+        "cogs.Moderation.announcements"
+    ]
+}

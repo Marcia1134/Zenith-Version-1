@@ -1,0 +1,16 @@
+{
+    "cog_list_file_path": "cogs/cogs.json",
+    "channels": {
+        "log": 1176494777873731676,
+        "welcome": 1176461254777384970,
+        "ticket_category": 1176462352804225045
+    },
+    "roles": {
+        "member": 1176438156501979176,
+        "mod": 1176439945792081920
+    },
+    "guild": 1176436948651479090,
+    "branding": {
+        "logo": "https://i.ibb.co/BrDmLkz/alt-logo.png"
+    }
+}
