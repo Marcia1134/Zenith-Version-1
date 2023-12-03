@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "120158d31470f1b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ad.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flow Plan.md",
+                "file": "ad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flow Plan.md",
+                "file": "ad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flow Plan.md"
+                "file": "ad.md"
               }
             }
           }
@@ -160,8 +172,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d83ee77adebabbad",
+  "active": "120158d31470f1b9",
   "lastOpenFiles": [
+    "Flow Plan.md",
+    "ad.md",
+    "Untitled",
     "cogs/tickets/ticket_management/freeze_ticket.py",
     "database/zenith.db-journal",
     "database/zenith.db",
@@ -171,10 +186,7 @@
     "cogs/tickets/ticket_management/__pycache__",
     "cogs/tickets/ticket_management/create_ticket.py",
     "cogs/tickets/ticket_management",
-    "cogs/tickets/member_management/remove_member.py",
-    "database/wrapper.py",
     "readme.md",
-    "Flow Plan.md",
     "comment_guide.md"
   ]
 }

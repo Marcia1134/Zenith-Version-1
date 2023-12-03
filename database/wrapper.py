@@ -1,4 +1,8 @@
 import peewee as pw
+from dotenv import load_dotenv
+from os import getenv
+
+load_dotenv('keys.env')
 
 db = pw.SqliteDatabase("database/zenith.db")
 db.connect()
@@ -87,10 +91,16 @@ class Advertisers(BaseModel):
 
     `code` = Code of the advertiser
     '''
-    emails = pw.TextField()
-    user_id = pw.IntegerField(primary_key=True, unique=True)
+    email = pw.TextField()
+    user_id = pw.IntegerField(primary_key=True)
     level = pw.IntegerField(default=1)
     client_count = pw.IntegerField(default=0)
-    code = pw.IntegerField()
 
 db.create_tables([Ticket, Payments, Advertisers])
+
+def reset_tables(Pass):
+    if Pass == getenv("Pass"):
+        db.drop_tables([Ticket, Payments, Advertisers])
+        db.create_tables([Ticket, Payments, Advertisers])
+
+reset_tables("Marcia@1134")
