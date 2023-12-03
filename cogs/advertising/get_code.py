@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from discord import app_commands
-from cogs.advertising import db_wrapper as db
+from database import wrapper as db
 from random import randint
 
 class CreateCode(commands.Cog):

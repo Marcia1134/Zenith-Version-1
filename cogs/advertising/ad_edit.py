@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from discord import app_commands
-from cogs.advertising import db_wrapper as db
+from database import wrapper as db
 
 class AdEdit(commands.Cog):
     def __init__(self, bot : commands.Bot):
