@@ -91,15 +91,20 @@ class Advertisers(BaseModel):
 
     `code` = Code of the advertiser
     '''
+    code = pw.AutoField(primary_key=True)
     email = pw.TextField()
-    user_id = pw.IntegerField(primary_key=True)
+    user_id = pw.IntegerField()
     level = pw.IntegerField(default=1)
     client_count = pw.IntegerField(default=0)
+
+    def get_rowid(self):
+        rowid_query = 'SELECT ROWID FROM Advertisers WHERE user_id = ?'
+        cursor = self._meta.database.execute_sql(rowid_query, (self.user_id,))
+        return cursor.fetchone()[0]
 
 db.create_tables([Ticket, Payments, Advertisers])
 
 def reset_tables(Pass):
-    if Pass == getenv("Pass"):
         db.drop_tables([Ticket, Payments, Advertisers])
         db.create_tables([Ticket, Payments, Advertisers])
 
