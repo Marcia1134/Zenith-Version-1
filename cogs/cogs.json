@@ -11,16 +11,8 @@
         "cogs.tickets.ticket_management.freeze_ticket",
         "cogs.tickets.ticket_management.open_ticket",
         "cogs.tickets.ticket_management.delete_ticket",
-        "cogs.advertising.create_advertiser_profile",
-        "cogs.advertising.edit_advertiser_profile",
-        "cogs.advertising.ad_edit",
-        "cogs.advertising.ad_profile_delete",
-        "cogs.advertising.ad_profile",
-        "cogs.advertising.adhelp",
-        "cogs.advertising.get_code",
-        "cogs.advertising.get_level",
-        "cogs.advertising.guide",
-        "cogs.advertising.help",
+        "cogs.advertising.ad_create",
+        "cogs.advertising.ad_dashboard",
         "cogs.Moderation.announcements"
     ]
 }

@@ -27,12 +27,12 @@ class EmailModal(discord.ui.Modal):
     async def on_cancel(self, interaction : discord.Interaction):
         await interaction.reponse.send_message(f"Please know that you can not continue as an Advertiser without signing up with your email! If you do wish to continue please fill out the infomation.")
 
-
+# This needs to be changed to 'AdCreate'
 class CreateAdvertiserProfile(commands.Cog):
     def __init__(self, bot : commands.Bot):
         self.bot = bot
 
-    @app_commands.command(name="create_advertiser_profile", description="Creates an advertiser profile")
+    @app_commands.command(name="ad_create", description="Creates an advertiser profile")
     async def create_advertiser_profile(self, interaction : discord.Interaction):
         '''
         Purpose: Creates an advertiser profile
