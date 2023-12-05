@@ -13,6 +13,7 @@
         "cogs.tickets.ticket_management.delete_ticket",
         "cogs.advertising.ad_create",
         "cogs.advertising.ad_dashboard",
+        "cogs.advertising.ad_display",
         "cogs.Moderation.announcements"
     ]
 }
