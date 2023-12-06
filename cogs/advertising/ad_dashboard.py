@@ -73,12 +73,12 @@ class EditAdvertiserProfile(commands.Cog):
                     def __init__(self):
                         super().__init__(title="Change your Nickname on the Server!", timeout=None)
 
-                        nickname_input = discord.ui.TextInput(label="What do you want to change your username too?", max_length=12, min_length=3, placeholder=str(interaction.user.name))
+                        self.nickname_input = discord.ui.TextInput(label="What do you want to change your username too?", max_length=12, min_length=3, placeholder=str(interaction.user.name))
 
-                        self.add_item(nickname_input)
+                        self.add_item(self.nickname_input)
 
                     async def on_submit(self, interaction : discord.Interaction):
-                        await interaction.user.edit(nick=str(self.nickname_input.value))
+                        await interaction.user.edit(nick=f"{self.nickname_input.value}")
                         await interaction.response.send_message(f"Your username has been changed to `{self.nickname_input.value}`!")
 
                     async def on_cancel(self, interaction : discord.Interaction):
@@ -86,18 +86,22 @@ class EditAdvertiserProfile(commands.Cog):
 
                 await interaction.response.send_modal(NickChangeModal())
             
-            @discord.ui.button(style=discord.ButtonStyle.blurple, label="Break", emoji="✉️")
-            async def edit_break_button(self, interaction : discord.Interaction, button : discord.Button):
-                await interaction.response.send_message(f"Editing the {button.label}...")
-            
-            @discord.ui.button(style=discord.ButtonStyle.blurple, label="Resign", emoji="✉️")
-            async def edit_resign_button(self, interaction : discord.Interaction, button : discord.Button):
-                await interaction.response.send_message(f"Editing the {button.label}...")
-            
             @discord.ui.button(style=discord.ButtonStyle.blurple, label="Support", emoji="✉️")
             async def edit_support_button(self, interaction : discord.Interaction, button : discord.Button):
-                await interaction.response.send_message(f"Editing the {button.label}...")
+                await interaction.response.send_message(f"Try creating a Support ticket! `/create_ticket ticket_type:Support`!")
         
+            @discord.ui.button(style=discord.ButtonStyle.red, label="Delete Account")
+            async def remove_account_button(self, interaction : discord.Interaction, button : discord.Button):
+                await interaction.response.send_message(f"If you are 100% sure you want to delete your account permantely, use the `-deleteme` command.")
+
+        try:
+            advertiser = wrapper.Advertisers.select().where(wrapper.Advertisers.user_id == interaction.user.id)
+        except wrapper.Advertisers.DoesNotExist:
+            await interaction.response.send_message("Please use the `/ad_create` command to create an account before using the Advertiser Dashboard!")
+            return
+        else:
+            pass
+
         await interaction.response.send_message(embed=embed, view=EditView())
 
 async def setup(bot : commands.Bot):

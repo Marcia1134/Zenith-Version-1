@@ -8,7 +8,7 @@ class AdDisplay(commands.Cog):
         self.bot : commands.Bot = bot
 
     @app_commands.command(name = "ad_display", description = "Displays an advertisement")
-    async def ad(self, interaction : discord.Interaction, verbose : bool =False):
+    async def ad(self, interaction : discord.Interaction, clean : bool =False):
         
         try:
             advertiser : wrapper.Advertisers = wrapper.Advertisers.select().where(wrapper.Advertisers.user_id == interaction.user.id).get()
@@ -27,17 +27,14 @@ class AdDisplay(commands.Cog):
         else:
             earning += 5
         
-        embed = discord.Embed(title = "Advertisement Profile", description = f"""Your Advertising Code is; `{advertiser.code}`\nYou are now level `{advertiser.level}`!\nWith `{advertiser.client_count}` clients under your belt you are earning up to `{earning}%` per client!\nWhenever you do earn we send it to `
-        {advertiser.email}`""", color = discord.Color.blue())
-        
-        if verbose == True:
-            embed = discord.Embed(title="Advertising Profile")
-            embed.add_field(name="Email", value=f'```{advertiser.email}```')
-            embed.add_field(name="Code", value=f'```{advertiser.code}```')
-            embed.add_field(name="Level", value=f'```{advertiser.level}```')
-            embed.add_field(name="Cut", value=f'```{earning}%```')
-            embed.add_field(name="Succesful Clients", value=f'```{advertiser.client_count}```')
-        
+    
+        embed = discord.Embed(title="Advertising Profile", color=discord.Color.purple())
+        embed.add_field(name="Email", value=f'```{advertiser.email}```')
+        embed.add_field(name="Code", value=f'```{advertiser.code}```')
+        embed.add_field(name="Level", value=f'```{advertiser.level}```')
+        embed.add_field(name="Cut", value=f'```{earning}%```')
+        embed.add_field(name="Succesful Clients", value=f'```{advertiser.client_count}```')
+    
         await interaction.response.send_message(embed=embed)
     
 async def setup(bot : commands.Bot):

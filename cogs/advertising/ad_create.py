@@ -20,7 +20,7 @@ class EmailModal(discord.ui.Modal):
 
         embed_email_submission.add_field(name="Details", value=f"You have signed up with the email: ```{advertiser.email}```\n\nYour Advertising Code is ```{advertiser.code}```", inline=False)
 
-        embed_email_submission.add_field(name="Getting Started", value="To get started, learn about the advertiser Dashboard. bring up a dashboard anywhere by using the ```/ad_dashboard``` command! If you want a completely private session, use the Direct Message option! This will allow you to edit your profile, get support if needed, and manage your account status!", inline=False)
+        embed_email_submission.add_field(name="Getting Started", value="To edit you account use the command: ```/ad_dashboard```If you ever want to see how your account is doing, use: ```/ad_display```Have fun!", inline=False)
         
         await interaction1.response.send_message(embed=embed_email_submission)
 

@@ -107,5 +107,3 @@ db.create_tables([Ticket, Payments, Advertisers])
 def reset_tables(Pass):
         db.drop_tables([Ticket, Payments, Advertisers])
         db.create_tables([Ticket, Payments, Advertisers])
-
-reset_tables("Marcia@1134")
