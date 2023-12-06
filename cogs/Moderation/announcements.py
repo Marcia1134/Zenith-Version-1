@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 from discord import app_commands
-from cogs.advertising import db_wrapper as db
 
 class AnnoucementModal(discord.ui.Modal):
     def __init__(self):
