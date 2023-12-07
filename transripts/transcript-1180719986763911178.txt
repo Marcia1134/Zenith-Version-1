@@ -1,0 +1,49 @@
+2023-12-03 05:00:16.101000+00:00 - Zenith Collective Bot#4975: This might take a second! Please wait while we freeze the ticket to a file for you!
+2023-12-03 05:00:08.688000+00:00 - Zenith Collective Bot#4975: This might take a second! Please wait while we close the ticket for you!
+2023-12-03 04:59:45.855000+00:00 - Zenith Collective Bot#4975: This member is already in the ticket!
+2023-12-03 04:59:38.341000+00:00 - Zenith Collective Bot#4975: Loaded Cogs: 18 | Failed Cogs: 0
+2023-12-03 04:58:29.413000+00:00 - Zenith Collective Bot#4975: This might take a second! Please wait while we open the ticket for you!
+2023-12-03 04:58:19.500000+00:00 - Zenith Collective Bot#4975: This might take a second! Please wait while we close the ticket for you!
+2023-12-03 04:58:15.764000+00:00 - Zenith Collective Bot#4975: Loaded cog cogs.tickets.ticket_management.open_ticket
+2023-12-03 04:57:29.641000+00:00 - Zenith Collective Bot#4975: This might take a second! Please wait while we open the ticket for you!
+2023-12-03 04:57:24.564000+00:00 - Zenith Collective Bot#4975: This ticket is closed! It is not possible to close a closed ticket.
+2023-12-03 04:57:12.306000+00:00 - Zenith Collective Bot#4975: Synced 20 Slash Commands
+2023-12-03 04:56:44.497000+00:00 - Zenith Collective Bot#4975: Loaded cog cogs.tickets.ticket_management.open_ticket
+2023-12-03 04:55:55.239000+00:00 - Zenith Collective Bot#4975: This is a closed ticket! It is not possible to add any new members.
+2023-12-03 04:55:46.395000+00:00 - Zenith Collective Bot#4975: This might take a second! Please wait while we open the ticket for you!
+2023-12-03 04:55:32.343000+00:00 - Zenith Collective Bot#4975: Synced 20 Slash Commands
+2023-12-03 04:55:27.329000+00:00 - Zenith Collective Bot#4975: Loaded cog cogs.tickets.ticket_management.open_ticket
+2023-12-03 04:55:09.876000+00:00 - Zenith Collective Bot#4975: Failed to load cog cogs.tickets.ticket_management.open_ticket: Extension 'cogs.tickets.ticket_management.open_ticket' raised an error: ValueError: 'Open_ticket' must be all lower-case
+2023-12-03 04:49:01.696000+00:00 - Zenith Collective Bot#4975: This ticket is closed! It is not possible to close a closed ticket.
+2023-12-03 04:48:48.059000+00:00 - Zenith Collective Bot#4975: This is a closed ticket! It is not possible to add any new members.
+2023-12-03 04:48:15.458000+00:00 - Zenith Collective Bot#4975: Synced 19 Slash Commands
+2023-12-03 04:48:04.712000+00:00 - Zenith Collective Bot#4975: Loaded Cogs: 18 | Failed Cogs: 0
+2023-12-03 04:01:56.559000+00:00 - Zenith Collective Bot#4975: This might take a second! Please wait while we close the ticket for you!
+2023-12-03 04:01:39.479000+00:00 - Zenith Collective Bot#4975: This might take a second! Please wait while we freeze the ticket to a file for you!
+2023-12-03 04:01:36.077000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:35.030000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:34.040000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:33.153000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:32.113000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:31.086000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:30.230000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:29.177000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:28.359000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:27.447000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:26.407000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:25.449000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:24.439000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:23.518000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:21.840000+00:00 - mossmarcia: awnhgoiaispbnawnhgoiaispbnawnhgoiaispbn
+2023-12-03 04:01:21.233000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:20.799000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:20.401000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:20.057000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:19.699000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:14.187000+00:00 - mossmarcia: vawnhgoiaispbn
+2023-12-03 04:01:13.710000+00:00 - mossmarcia: awnhgoiaispbnawnhgoiaispbnawnhgoiaispbn
+2023-12-03 04:01:13.320000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:12.925000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:12.485000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:12.052000+00:00 - mossmarcia: awnhgoiaispbn
+2023-12-03 04:01:08.664000+00:00 - mossmarcia: wadawadawadawadawadawadawadawadawadfawadawaadf
