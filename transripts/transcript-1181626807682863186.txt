@@ -1,0 +1,108 @@
+2023-12-06 09:01:07.469000+00:00 - Zenith Collective Bot#4975: This might take a second! Please wait while we freeze the ticket to a file for you!
+2023-12-06 05:26:17.137000+00:00 - mossmarcia: Fair enough then.
+2023-12-06 04:38:26.769000+00:00 - dec_7: Im on mobile too atm, it was a pain to handle that too
+2023-12-06 04:37:47.584000+00:00 - mossmarcia: No i have clicked it, i am saying its extremely difficult to interact with on my phone !!
+2023-12-06 04:33:23.409000+00:00 - dec_7: Dont tell me you dont trust the link lol
+2023-12-06 04:32:25.904000+00:00 - dec_7: And how can I show you the inside of the dropdown menu? Other screenshots, that will be a mess, click that link and check all info you need
+2023-12-06 04:31:03.955000+00:00 - mossmarcia: Thats why we use images my friend! Screen shots i mean.
+2023-12-06 04:30:59.987000+00:00 - dec_7: cant send it
+2023-12-06 04:30:47.009000+00:00 - dec_7: ^
+2023-12-06 04:30:45.980000+00:00 - mossmarcia: (also i can barely make sense of anything on a mobile device haha)
+2023-12-06 04:30:22.975000+00:00 - mossmarcia: The redirector will!
+2023-12-06 04:30:02.619000+00:00 - dec_7: autocode gave me that link, I don't think it expires lol
+2023-12-06 04:29:16.036000+00:00 - mossmarcia: Rather then sending a link as some expire or sitws go down often. Also it may be harder to access on a mobile device
+2023-12-06 04:28:55.448000+00:00 - dec_7: ^
+2023-12-06 04:28:44.240000+00:00 - mossmarcia: Nvm that sorry! You can send a screen shot of the actual embed.
+2023-12-06 04:28:13.232000+00:00 - dec_7: Which images
+2023-12-06 04:28:03.924000+00:00 - mossmarcia: The images are really difficult to work with unfortunately.
+2023-12-06 04:27:59.956000+00:00 - dec_7: The original links is like over 4k characters
+2023-12-06 04:27:50.550000+00:00 - dec_7: This one works: https://t.ly/oY2Jq
+2023-12-06 04:26:55.722000+00:00 - dec_7: It doesnt
+2023-12-06 04:26:28.989000+00:00 - dec_7: This should go
+2023-12-06 04:26:25.018000+00:00 - dec_7: https://shorturl.at/mAEOT
+2023-12-06 04:25:55.987000+00:00 - dec_7: Whaat, the link is over 4k characters
+2023-12-06 04:23:45.650000+00:00 - dec_7: no worries lol
+2023-12-06 03:45:34.496000+00:00 - mossmarcia: Sorry i didnt see this sooner haha
+2023-12-06 03:43:50.046000+00:00 - mossmarcia: Ping me when ever ya need me !
+2023-12-06 03:43:41.407000+00:00 - mossmarcia: Youll find things under 'components'
+2023-12-06 03:43:30.077000+00:00 - mossmarcia: https://autocode.com/tools/discord/embed-builder/
+2023-12-06 03:41:42.763000+00:00 - mossmarcia: Hmmm let me do a quick search.
+2023-12-06 03:22:02.164000+00:00 - dec_7: About this embed builder, is there one that makes me able to also add buttons
+2023-12-06 03:21:37.703000+00:00 - dec_7: 👍🏻
+2023-12-06 03:18:48.677000+00:00 - mossmarcia: I forget my bot is offline currently haha. But yeah omce i get home for sure 👍
+2023-12-06 03:18:12.968000+00:00 - dec_7: Sure
+2023-12-06 03:17:33.667000+00:00 - mossmarcia: Alright sounds good. I will save a transcript of this ticket for now just incase something happens during updates.
+2023-12-06 03:16:37.596000+00:00 - dec_7: This 'embed builder' is fine for now, and yes I will keep you updated, don't worry if when I get back you are busy, I can wait
+2023-12-06 03:15:05.848000+00:00 - mossmarcia: Embed builders are accessible from a simple search.
+2023-12-06 03:14:38.066000+00:00 - mossmarcia: Sure. That works fine. I may not be able to talk always. As i do need to consult other people and things like that. For the mean time you are welcome to use an embed builder to generate the structures of embeds you want to see. If you would like i can produce a markdown file over time of your requested bot. (This does cost about 7 bucks but you can provide that at any time, does not have to be immediate.) The file will contain all documentation for the bot from commands to structure, every thing. Its not something i offer everypne but for you it might work.
+2023-12-06 03:10:04.889000+00:00 - dec_7: I honestly don't know, but I think at least a month
+2023-12-06 03:05:42.978000+00:00 - mossmarcia: Alright i got it! When would you be able to get those resources roughly?
+2023-12-06 03:04:56.798000+00:00 - dec_7: Sure, we can delve into the remaining details to clarify any uncertainties. However, as mentioned it's important to note that I currently don't have the funds as I'm a student. While it might take some time for me to secure the necessary resources, we can continue discussing the project and its features. I have several ideas in mind, and we don't have to implement everything at once. Once the bot is launched, we can explore the possibility of adding additional features. If there are specific features missing from the library that we require, feel free to inform me so that I can reach out to them.
+2023-12-06 03:02:51.673000+00:00 - dec_7: hey, no worries 😉
+2023-12-05 22:08:41.413000+00:00 - mossmarcia: Just ping me whenever!
+2023-12-05 22:06:16.090000+00:00 - mossmarcia: If you want we can pick up where we left off.
+2023-12-05 22:06:01.168000+00:00 - mossmarcia: Hey sorry l, i had fallen asleep there.
+2023-12-05 16:57:00.993000+00:00 - dec_7: they are very active in this field, just tell me what is missing
+2023-12-05 16:56:56.591000+00:00 - mossmarcia: Sounss good then
+2023-12-05 16:56:38.282000+00:00 - dec_7: what they don't provide? I can ask them to add it since I was the one who made them translate the documentation into English
+2023-12-05 16:54:48.872000+00:00 - mossmarcia: Yeah. If that is the case and they dont offer something you need. No problem, i can webscrape it. The reasom i ahve to warm you is it is quite costly to webscrape.
+2023-12-05 16:53:32.184000+00:00 - dec_7: You mean this one. https://mainkronos.github.io/AnimeWorld-API/
+2023-12-05 16:52:17.810000+00:00 - mossmarcia: Just to let you know i am starting to doubt that rhis api has the capability to actually handle some of the things so i might have to tell you about soemthinf in a little bit.
+2023-12-05 16:51:54.907000+00:00 - dec_7: but don't worry, this will happen later, now let's focus on this lmao
+2023-12-05 16:51:29.942000+00:00 - mossmarcia: Huh- alright then
+2023-12-05 16:50:57.072000+00:00 - dec_7: nope, so I guess you have to use another api for that
+2023-12-05 16:49:55.088000+00:00 - mossmarcia: Well does the providing site offer their anime in english?
+2023-12-05 16:49:08.953000+00:00 - dec_7: This was also a suggestion for the future so in my opinion it is better to prepare the code in a certain way: "A potential upcoming feature that would enhance the experience is the addition of multilingual support. For instance, introducing an option to watch anime in English would be a valuable addition."
+2023-12-05 16:47:50.409000+00:00 - mossmarcia: Yeah thats totally possible.
+2023-12-05 16:46:55.113000+00:00 - dec_7: perfect, the only thing is that since as you may have noticed there are several steps for the user when he executes the command, so if every time or at least when necessary, instead of sending a new message with the embed if you can edit the previous, one would be great
+2023-12-05 16:43:17.161000+00:00 - mossmarcia: Riight no i get you. So yeah ill have the fast mode and then ill have the default, modernized look and feel.
+2023-12-05 16:42:26.679000+00:00 - dec_7: Yea I get that, but it sounds kinda old to me, if you remember that video that I sent you, that approach that that guy used was fine 2/3 years ago, that's why now with all these new features that they have put in I wanted to implement them
+2023-12-05 16:41:18.209000+00:00 - dec_7: Yea I meant that, even 5 is finr
+2023-12-05 16:39:52.771000+00:00 - mossmarcia: Dynamic listing is just straight up impossible. I am gonna be honest with you, its simply just not possible. What i can do is have the user search and then it returns ten of the closest animes with that name, and then lets you pick one from that ten.
+2023-12-05 16:38:03.928000+00:00 - mossmarcia: I see what you mean about modals but just to give you an alternative, a modal is three interactions. Interaction to start the modal, interaction to type the modal, interaction to send the modal. 3 clicks. With a shalsh command and listening the amont of episodes in the details card. You can simplfy that down to one command interaction. Still i am on your side. What i can do is have a 'fast mode' where users that want to remember the commands, can just used their keybaords and commands to navigate (also helps with debugging) and then everyone else can use the buttons. It also helps with accessibility.
+2023-12-05 16:37:11.377000+00:00 - dec_7: So this was the whole idea, lemme know if you got other doubts
+**Anime Search Interaction:**
+- User triggers `/search <anime_name>` command.
+- Bot suggests 5 matching anime names as the user types.
+- Displays suggestions in a user-friendly dropdown menu.
+- User clicks on a suggested anime name in the dropdown.
+
+**Anime Details Embed:**
+- Bot responds with an embedded message, including:
+  - Synopsis
+  - Release Date
+  - Genres
+  - Thumbnail Image
+
+**Interactive Buttons:**
+- Various actions buttons within the embed:
+  - 🎬 **Watch Anime**
+  - 📥 **Download Episodes**
+  - 📜 **Suggest Similar Anime**
+  - 📊 **Episode List**: Provides the total number of episodes.
+
+**Episode List Modal:**
+- User clicks on the Episode List button.
+- Bot responds with a modal displaying episode numbers.
+- User selects the desired episode from the modal.
+- Users can explore related anime without initiating a new search.
+2023-12-05 16:30:38.305000+00:00 - dec_7: In my view, a modal is a superior choice. Dealing with thousands of episodes makes it impractical to include 1,000 buttons or choices in a dropdown menu. Even if it were possible, it would result in a cluttered and messy interface. Therefore, opting for a modal is the most effective approach.
+2023-12-05 16:27:01.488000+00:00 - dec_7: Thats cool, so about the first question to keep thaat "simple" we can add another button called episode list, the bot responds with the number of total episodes of that anime and then with a modal you can put the episode number and thats it
+2023-12-05 16:20:23.847000+00:00 - mossmarcia: Take your time, with the second question, yes, you could watch it totally inside discord, you would not have to leave discord. however it can result in some weirdness, I am happy to leave it as two modes, and then you can flick between going to another site and playing through discord just incase anything happens.
+2023-12-05 16:18:57.245000+00:00 - dec_7: So it will be possible to display the anime on discord and about the first question i didnt give you an answer lmao, im dumb, I hadn't really thought about it, now I'm thinking about it lol
+2023-12-05 16:17:02.883000+00:00 - dec_7: I think using an embed is the best choice
+2023-12-05 16:17:00.846000+00:00 - mossmarcia: Ok two things:
+1. I meant to ask for how does a user select which episode they want
+2. I can do a little background magic and get the file onto discord, however if this file where to be downloaded, shared or otherwise tampered with by someone that is rechless it can result in a little message from discod giving you a warning
+2023-12-05 16:15:18.037000+00:00 - dec_7: If the user clicks the "Watch" button, the bot can provide a link to an external source for watching, because its not possibile to handle this on discord ig
+2023-12-05 16:13:31.141000+00:00 - mossmarcia: Question, once the anime has been gotten and it is on details. How do you want a person to get the episode?
+2023-12-05 16:12:10.231000+00:00 - mossmarcia: Interesting.
+2023-12-05 16:11:34.701000+00:00 - dec_7: Here's my idea: As the user starts typing the anime name with `/search <anime_name>`, the bot dynamically suggests matching anime names, display these suggestions in a dropdown menu, user can click on a suggested anime name from the dropdown, the bot responds with a detailed message containing information about the selected anime, including synopsis, release date, genres, and a thumbnail image of that anime with buttons for various actions like watching, downloading,  add other buttons to suggest similar anime titles based on the selected anime. Users can explore related anime without initiating a new search
+2023-12-05 16:06:51.988000+00:00 - mossmarcia: No problem, take your time!
+2023-12-05 16:06:41.427000+00:00 - dec_7: It will take a bit
+2023-12-05 16:06:39.101000+00:00 - dec_7: So, lemme clarify the idea for the search command
+2023-12-05 16:06:30.295000+00:00 - dec_7: yes
+2023-12-05 16:04:15.790000+00:00 - mossmarcia: <@652854911448514560>  You now should have access.
+2023-12-05 16:03:50.974000+00:00 - Zenith Collective Bot#4975: Added <@652854911448514560> to the ticket!
+2023-12-05 16:03:22.631000+00:00 - mossmarcia: This way I can easily keep track of things!
+2023-12-05 16:03:13.635000+00:00 - mossmarcia: Awesome
