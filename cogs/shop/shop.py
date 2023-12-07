@@ -29,7 +29,7 @@ class Shop(commands.Cog):
                 
                 async def on_submit(self, interaction : discord.Interaction):
                     
-                    interaction.response.send_message("Attempting to create channel!")
+                    await interaction.response.send_message("Attempting to create channel!")
 
                     support_category = discord.utils.get(interaction.guild.categories, name="Custom Bot Tickets")
                     if support_category is None:
@@ -57,11 +57,12 @@ class Shop(commands.Cog):
                     support_embed.add_field(name="Bot Description", value=f"```{self.bot_description_input.value}```", inline=False)
                     if self.bot_notes_input != None:
                         if self.bot_notes_input != "":
+                            await ticket_channel.delete()
                             support_embed.add_field(name="Description Notes", value=f"```{self.bot_notes_input.value}```", inline=False)
                     try:
                         advertiser : wrapper.Advertisers = wrapper.Advertisers.select().where(wrapper.Advertisers.code == self.bot_advertiser_code.value).get()
                     except:
-                        await interaction.followup.send(f"The advertiser code of {self.bot_advertiser_code.value} is not a valid code! Please try again: \n\nBot Description: ```{self.bot_description_input.value}```, Notes: ```{self.bot_notes_input.value}``` ")
+                        await interaction.followup.send(f"The advertiser code of {self.bot_advertiser_code.value} is not a valid code! Please try again: \n\nBot Description: ```{self.bot_description_input.value}```\nNotes: ```{self.bot_notes_input.value}``` ")
                         return
                     else:
                         pass
@@ -76,7 +77,7 @@ class Shop(commands.Cog):
             await  interaction.response.send_modal(CustomBotModal())
 
     @app_commands.command(name="shop", description="Displays the entire shop!")
-    async def view_shop_command(self, interaction : discord.Interaction, guide : bool = False):
+    async def view_shop_command(self, interaction : discord.Interaction):
         
         embed = discord.Embed(color=discord.Color.purple(), title="Zenith Collective Shop")
         embed.add_field(name="Custom Discord Bot", value="```Custom Discord Bot, fill out the details of your bot and get a developer to assist you by coding a bot of your request.```\n\n```Price Range: 10USD - 60USD```")
