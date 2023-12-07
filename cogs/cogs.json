@@ -15,6 +15,7 @@
         "cogs.advertising.ad_dashboard",
         "cogs.advertising.ad_display",
         "cogs.Moderation.announcements",
-        "demo"
+        "demo",
+        "cogs.shop.shop"
     ]
 }
