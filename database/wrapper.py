@@ -102,7 +102,41 @@ class Advertisers(BaseModel):
         cursor = self._meta.database.execute_sql(rowid_query, (self.user_id,))
         return cursor.fetchone()[0]
 
-db.create_tables([Ticket, Payments, Advertisers])
+class CustomBot(BaseModel):
+    '''
+     
+    ## Zenith
+
+    ### Custom Bots
+
+    bot_id (::primary key::) = ID of the Bot
+
+    ticket_id = ID of the ticket this is founded in
+
+    code = the code of the advertiser that this client is from
+
+    user_id = Id of the person wanting the bot
+
+    cost = default 0 
+
+    bot_name = default "nameless bot"
+
+    bot_logo = https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-512.png
+
+    bot_description = description of the bot
+     
+     '''
+
+    bot_id = pw.AutoField(primary_key = True)
+    ticket_id = pw.IntegerField()
+    code = pw.IntegerField()
+    user_id = pw.IntegerField()
+    cost = pw.IntegerField(default=0)
+    bot_name = pw.TextField(default = "nameless bot")
+    bot_logo = pw.TextField(default= "https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-512.png")
+    bot_description = pw.TextField()
+
+db.create_tables([Ticket, Payments, Advertisers, Payments])
 
 def reset_tables(Pass):
         db.drop_tables([Ticket, Payments, Advertisers])
