@@ -39,8 +39,7 @@ class Pay(commands.Cog):
                 await interaction.followup.send('There has been an error, your custom bot infomation was not found!')
             else:
                 await interaction.followup.send(f"Your infomation has been found! Your Bot ID is {bot_instance.bot_id}")
-
-                
+            return
             
         if ticket_channel.type == 3:
             interaction.followup.send("This version of Zenith Bot does not support custom servers yet!")
