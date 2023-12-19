@@ -16,6 +16,7 @@
         "cogs.advertising.ad_display",
         "cogs.Moderation.announcements",
         "demo",
-        "cogs.shop.shop"
+        "cogs.shop.shop",
+        "cogs.shop.pay"
     ]
 }

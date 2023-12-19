@@ -45,39 +45,41 @@ class Shop(commands.Cog):
 
                         support_category = await interaction.guild.create_category_channel(name="Custom Bot Tickets", overwrites=overwrites)
 
-                    bot_instance : wrapper.CustomBot = wrapper.CustomBot.select().where(bot_name = self.bot_name_input.value)
+                    bot_instance : wrapper.CustomBot = wrapper.CustomBot.select().where(wrapper.CustomBot.bot_name == self.bot_name_input.value).execute()
 
                     ticket_channel = await interaction.guild.create_text_channel(name=f"custom-bot-{interaction.user.name}", category=support_category)
 
-                    ticket_id = wrapper.Ticket.create(guild_id=interaction.guild.id, channel_id=ticket_channel.id, type=2, status=0)
+                    ticket_id = wrapper.Ticket.create(guild_id=interaction.guild.id, channel_id=ticket_channel.id, channel_type=2, status=0)
 
                     await ticket_channel.edit(name=f"{ticket_channel.name}-{ticket_id}")
 
-                    support_embed = discord.Embed(title="Support Ticket", description=f"Ticket created by {interaction.user.mention}!", color=discord.Color.magenta())
+                    support_embed = discord.Embed(title="Custom Bot Ticket", description=f"Ticket created by {interaction.user.mention}!", color=discord.Color.magenta())
                     support_embed.set_footer(text="Zenith Collective")
                     support_embed.timestamp = interaction.created_at
-                    support_embed.add_field(name="Ticket Type", value="Support", inline=True)
+                    support_embed.add_field(name="Ticket Type", value="Custom Bot", inline=True)
                     support_embed.add_field(name="Ticket ID", value=ticket_channel.id, inline=True)
                     support_embed.add_field(name="Ticket Channel", value=ticket_channel.mention, inline=True)
                     try:
                         advertiser : wrapper.Advertisers = wrapper.Advertisers.select().where(wrapper.Advertisers.code == self.bot_advertiser_code.value).get()
                     except:
                         await interaction.followup.send(f"The advertiser code of {self.bot_advertiser_code.value} is not a valid code! Please try again: \n\nBot Description: ```{self.bot_description_input.value}```\nNotes: ```{self.bot_notes_input.value}``` ")
+                        await ticket_channel.delete()
+                        wrapper.Ticket.delete_by_id(ticket_id)
                         return
                     else:
-                        support_embed.add_field(name="Advertiser", value=f"Email: ```{advertiser.email}```\nLevel: ```{advertiser.level}```")
+                        support_embed.add_field(name="Advertiser", value=f"Email: ```{advertiser.email}```\nLevel: ```{advertiser.level}```", inline=False)
                         pass
-                    wrapper.CustomBot.create(user_id = interaction.user.id,
+                    bot_instance_id = wrapper.CustomBot.create(user_id = interaction.user.id,
                                              bot_name = self.bot_name_input.value,
                                              bot_description = self.bot_description_input.value,
                                              ticket_id = ticket_channel.id,
                                              code = self.bot_advertiser_code.value)
-                    support_embed.add_field(name="Bot ID", value=f"```{bot_instance.bot_id}```")
-                    support_embed.add_field(name="Bot Name", value=f"```{self.bot_name_input.value}```", inline=False)
+                    
+                    support_embed.add_field(name="Bot ID", value=f"```{bot_instance_id}```", inline=True)
+                    support_embed.add_field(name="Bot Name", value=f"```{self.bot_name_input.value}```", inline=True)
                     support_embed.add_field(name="Bot Description", value=f"```{self.bot_description_input.value}```", inline=False)
                     if self.bot_notes_input != None:
                         if self.bot_notes_input != "":
-                            await ticket_channel.delete()
                             support_embed.add_field(name="Description Notes", value=f"```{self.bot_notes_input.value}```", inline=False)
                     
                     support_embed.add_field(name="Closing Ticket", value="To close this ticket, please use the `/close_ticket` command.", inline=False)

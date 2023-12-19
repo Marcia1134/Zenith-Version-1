@@ -36,7 +36,7 @@ class Ticket(BaseModel):
     ticket_id = pw.AutoField(primary_key=True)
     guild_id = pw.IntegerField()
     channel_id = pw.IntegerField()
-    type = pw.IntegerField()
+    channel_type = pw.IntegerField()
     status = pw.IntegerField()
 
     class Meta:
@@ -136,7 +136,7 @@ class CustomBot(BaseModel):
     bot_logo = pw.TextField(default= "https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-512.png")
     bot_description = pw.TextField()
 
-db.create_tables([Ticket, Payments, Advertisers, Payments])
+db.create_tables([Ticket, Payments, Advertisers, Payments, CustomBot])
 
 def reset_tables(Pass):
         db.drop_tables([Ticket, Payments, Advertisers])
