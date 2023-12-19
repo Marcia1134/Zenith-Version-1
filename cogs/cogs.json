@@ -17,6 +17,7 @@
         "cogs.Moderation.announcements",
         "demo",
         "cogs.shop.shop",
-        "cogs.shop.pay"
+        "cogs.shop.pay",
+        "cogs.shop.cost"
     ]
 }

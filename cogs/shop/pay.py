@@ -54,7 +54,7 @@ class Pay(commands.Cog):
                 embed.add_field(name="Bot ID", value=f"```{bot_instance.bot_id}```")
                 embed.add_field(name="Bot Name", value=f"```{bot_instance.bot_name}```")
                 embed.add_field(name="Bot Description", value=f"```{bot_instance.bot_description}```", inline=False)
-                embed.add_field(name="Bot Cost", value=f"```{bot_instance.cost}```")
+                embed.add_field(name="Bot Cost", value=f"```${bot_instance.cost}```")
                 await interaction.followup.send(embed=embed)
             return
             
